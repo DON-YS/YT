@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ff0033" />
+    <meta name="description" content="صفحة يوتيوب الرسمية لـ Yousef Z. A. Shaheen — SHAHEEN GROUP | Beyond Innovation. Beyond Limits." />
+    <meta property="og:title" content="Yousef Z. A. Shaheen | YouTube" />
+    <meta property="og:description" content="Digital Empire Architect — Premium Digital Identity by SHAHEEN GROUP." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://i.postimg.cc/kMLNVwvr/IMG-20261027-200104-798.jpg" />
+    <meta property="og:url" content="https://USERNAME.github.io/REPOSITORY/YouTube/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Yousef Z. A. Shaheen | YouTube" />
+    <meta name="twitter:description" content="Digital Empire Architect — Premium Digital Identity by SHAHEEN GROUP." />
+    <meta name="twitter:image" content="https://i.postimg.cc/kMLNVwvr/IMG-20261027-200104-798.jpg" />
+    <link rel="canonical" href="https://USERNAME.github.io/REPOSITORY/YouTube/" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23ff0033'/%3E%3Cpath d='M25 18.5 44 32 25 45.5z' fill='%23fff'/%3E%3Cpath d='M23 16h18a5 5 0 0 1 5 5v22a5 5 0 0 1-5 5H23a5 5 0 0 1-5-5V21a5 5 0 0 1 5-5z' fill='none' stroke='%23fff' stroke-width='2'/%3E%3C/svg%3E" />
+    <title>Yousef Z. A. Shaheen | YouTube</title>
+    <style>
+      :root {
+        --bg: #090d15;
+        --bg-soft: #111827;
+        --panel: rgba(18, 18, 30, 0.6);
+        --line: rgba(255, 90, 120, 0.2);
+        --text: #f6f7fb;
+        --muted: #d6ddef;
+        --primary: #ff0033;
+        --primary-2: #ff6b57;
+        --primary-3: #ffb36b;
+        --shadow: rgba(255, 0, 51, 0.26);
+      }
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        font-family: Inter, "Segoe UI", Tahoma, sans-serif;
+        background:
+          radial-gradient(circle at 18% 0%, rgba(255, 0, 51, 0.18), transparent 20%),
+          radial-gradient(circle at 80% 10%, rgba(255, 179, 107, 0.15), transparent 18%),
+          linear-gradient(135deg, #070b14 0%, #101827 39%, #070b12 100%);
+        color: var(--text);
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+      body::before, body::after {
+        content: "";
+        position: fixed;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 50%;
+        filter: blur(110px);
+        pointer-events: none;
+      }
+      body::before { background: rgba(255, 0, 51, 0.12); left: -6rem; top: 8rem; }
+      body::after { background: rgba(255, 179, 107, 0.12); right: -5rem; bottom: 8rem; }
+      a { color: inherit; text-decoration: none; }
+      img { max-width: 100%; display: block; }
+      .page-shell { width: min(1200px, calc(100% - 1.5rem)); margin: 0 auto; padding: 1rem 0 2rem; }
+      .glass {
+        background: rgba(9, 13, 21, 0.7);
+        border: 1px solid var(--line);
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
+        box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2);
+      }
+      .topbar { display: flex; justify-content: flex-end; align-items: center; padding: 1rem 0 0.25rem; }
+      .profile-chip { display: flex; flex-direction: column; align-items: center; gap: 0.4rem; min-width: 126px; }
+      .platform-mark {
+        position: relative;
+        width: 72px;
+        height: 72px;
+        border-radius: 20px;
+        display: grid;
+        place-items: center;
+        background: linear-gradient(135deg, #ff0033 0%, #ff5d6d 28%, #ff8f70 100%);
+        border: 1px solid rgba(255,255,255,0.24);
+        box-shadow: 0 18px 40px rgba(255, 0, 51, 0.3);
+      }
+      .platform-mark::before {
+        content: "";
+        width: 24px;
+        height: 24px;
+        border-radius: 8px;
+        background: rgba(255,255,255,0.9);
+        clip-path: polygon(0 0, 100% 50%, 0 100%);
+        transform: translateX(2px);
+      }
+      .profile-name { font-size: 0.72rem; letter-spacing: 0.04em; text-align: center; color: rgba(255,255,255,0.92); }
+      .verified-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        padding: 0.28rem 0.7rem;
+        border-radius: 999px;
+        font-size: 0.62rem;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        color: #fff2f2;
+        background: rgba(255,255,255,0.05);
+        border: 1px solid rgba(255,255,255,0.14);
+      }
+      .verified-badge::before {
+        content: "✓";
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        background: rgba(255,255,255,0.08);
+        display: inline-grid;
+        place-items: center;
+        font-size: 0.7rem;
+      }
+      .hero { position: relative; border-radius: 28px; padding: clamp(1.1rem, 2vw, 2rem); margin-top: 0.75rem; overflow: hidden; }
+      .hero-grid { display: grid; grid-template-columns: 1.2fr 0.8fr; align-items: center; gap: 1.25rem; }
+      .eyebrow { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-bottom: 1rem; }
+      .tag {
+        display: inline-flex;
+        padding: 0.46rem 0.8rem;
+        border-radius: 999px;
+        font-size: 0.68rem;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        background: rgba(255,255,255,0.03);
+        border: 1px solid rgba(255,255,255,0.12);
+      }
+      h1 { margin: 0; font-size: clamp(2.1rem, 4vw, 4.2rem); line-height: 0.95; letter-spacing: -0.05em; }
+      .gradient-text {
+        display: block;
+        background: linear-gradient(90deg, #fff5f5, #ffd6d6 18%, #ff9ab1 38%, #ff5d6d 78%, #fff 100%);
+        -webkit-background-clip: text; background-clip: text; color: transparent;
+      }
+      .subtitle { margin: 1rem 0 0.8rem; font-size: clamp(1.12rem, 1.8vw, 1.45rem); line-height: 1.6; }
+      .description { color: var(--muted); line-height: 2; font-size: 1rem; max-width: 52rem; }
+      .hero-actions { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.5rem; }
+      .cta {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.7rem;
+        padding: 0.95rem 1.5rem;
+        min-width: 240px;
+        border-radius: 18px;
+        border: 1px solid rgba(255,255,255,0.14);
+        background: linear-gradient(135deg, #ff0033 0%, #ff5d6d 100%);
+        box-shadow: 0 18px 42px rgba(255, 0, 51, 0.25);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+      .cta:hover { transform: translateY(-2px); box-shadow: 0 26px 44px rgba(255, 0, 51, 0.34); }
+      .secondary { background: rgba(255,255,255,0.04); box-shadow: none; }
+      .hero-visual { position: relative; display: grid; place-items: center; min-height: 420px; }
+      .orb-wrap { position: relative; width: min(100%, 420px); aspect-ratio: 1; display: grid; place-items: center; }
+      .orb { position: absolute; border-radius: 50%; }
+      .orb.one { inset: 10% 12% 18% 14%; background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.7), rgba(255,140,120,0.2) 26%, rgba(255,0,51,0.35) 48%, rgba(255,179,107,0.08) 72%, transparent 100%); }
+      .orb.two { inset: 18% 20% 24% 20%; border: 1px solid rgba(255,255,255,0.15); background: rgba(9, 13, 21, 0.18); }
+      .display-card { position: relative; width: 75%; aspect-ratio: 0.72; border-radius: 30px; overflow: hidden; border: 1px solid rgba(255,255,255,0.15); box-shadow: 0 25px 45px rgba(0,0,0,0.4); }
+      .display-card img { width: 100%; height: 100%; object-fit: cover; filter: saturate(1.1) contrast(1.05); }
+      .badge-float { position: absolute; padding: 0.6rem 0.9rem; border-radius: 999px; background: rgba(14, 10, 20, 0.56); border: 1px solid rgba(255,255,255,0.14); backdrop-filter: blur(14px); font-size: 0.66rem; letter-spacing: 0.08em; text-transform: uppercase; }
+      .badge-float.one { top: 22%; left: 10%; }
+      .badge-float.two { bottom: 16%; right: 12%; }
+      .content-stack { margin-top: 1.4rem; display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 1rem; }
+      .section-panel { border-radius: 24px; padding: 1.2rem; }
+      .section-title { margin: 0 0 0.9rem; font-size: 0.85rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); }
+      .identity-tags, .tech-tags { display: flex; flex-wrap: wrap; gap: 0.65rem; }
+      .identity-tag, .tech-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.6rem 0.9rem;
+        border-radius: 999px;
+        background: rgba(255,255,255,0.03);
+        border: 1px solid rgba(255,255,255,0.12);
+        font-size: 0.74rem;
+      }
+      .tech-badge { font-size: 0.68rem; }
+      .metric-panel { display: flex; flex-direction: column; gap: 0.9rem; }
+      .metric-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        padding: 0.8rem 0.9rem;
+        border-radius: 16px;
+        background: rgba(255,255,255,0.02);
+        border: 1px solid rgba(255,255,255,0.09);
+      }
+      .metric-box span:first-child { color: var(--muted); }
+      .metric-box strong { font-size: 1.15rem; }
+      .gallery-block { margin-top: 1.5rem; border-radius: 28px; padding: clamp(1rem, 2vw, 1.4rem); }
+      .gallery-head { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-bottom: 1rem; }
+      .gallery-grid { display: grid; grid-template-columns: repeat(5, minmax(0,1fr)); gap: 0.9rem; }
+      .gallery-item {
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+        border: 1px solid rgba(255,255,255,0.12);
+        background: rgba(16,20,31,0.8);
+        transform: perspective(1200px) rotateX(0deg) rotateY(0deg);
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
+      }
+      .gallery-item:hover { transform: perspective(1200px) translateY(-5px) rotateX(2deg) rotateY(-3deg); box-shadow: 0 18px 28px rgba(0,0,0,0.2); }
+      .gallery-item img { width: 100%; height: 100%; object-fit: cover; aspect-ratio: 0.9; }
+      .gallery-item::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 38%, rgba(0,0,0,0.34)); }
+      .footer { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-top: 1.4rem; padding: 1rem 0 0.5rem; color: rgba(255,255,255,0.7); font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; }
+      .modal { position: fixed; inset: 0; display: none; place-items: center; background: rgba(3,7,12,0.72); backdrop-filter: blur(12px); z-index: 1000; }
+      .modal.show { display: grid; }
+      .modal-box { width: min(80vw, 880px); position: relative; border-radius: 26px; overflow: hidden; background: rgba(9,14,20,0.9); border: 1px solid rgba(255,255,255,0.14); }
+      .modal-box img { width: 100%; height: auto; max-height: 80vh; object-fit: contain; }
+      .close-btn { position: absolute; top: 1rem; right: 1rem; width: 2.4rem; height: 2.4rem; border-radius: 50%; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.08); color: white; cursor: pointer; font-size: 1.5rem; }
+      .reveal { opacity: 0; transform: translateY(26px); transition: opacity 0.75s ease, transform 0.75s ease; }
+      .reveal.visible { opacity: 1; transform: translateY(0); }
+      @media (max-width: 920px) {
+        .hero-grid, .content-stack { grid-template-columns: 1fr; }
+        .gallery-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+        .footer { flex-direction: column; text-align: center; }
+      }
+      @media (max-width: 620px) {
+        .page-shell { width: min(100% - 1rem, 1200px); }
+        .platform-mark { width: 60px; height: 60px; }
+        .profile-chip { min-width: 112px; }
+        .gallery-grid { grid-template-columns: 1fr; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+        .reveal { opacity: 1; transform: none; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar reveal">
+        <div class="profile-chip">
+          <div class="platform-mark" aria-label="YouTube logo"></div>
+          <div class="profile-name">Yousef Z. A. Shaheen</div>
+          <div class="verified-badge">Official Profile</div>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero glass reveal">
+          <div class="hero-grid">
+            <div>
+              <div class="eyebrow">
+                <span class="tag">WORLD-CLASS CREATOR</span>
+                <span class="tag">PREMIUM CONTENT</span>
+                <span class="tag">SHAHEEN GROUP</span>
+              </div>
+              <h1><span class="gradient-text">Yousef Z. A. Shaheen</span></h1>
+              <div class="subtitle">Version 04 — Digital Streaming Empire</div>
+              <p class="description">Yousef Z. A. Shaheen لا يقتصر على إنشاء محتوى؛ بل يصنع Experience، علامة، وقيمة بصرية تُستوعب في أقل من ثوانٍ. من التصميم إلى المنصة، كل شيء يبنى لتؤثر، تبرز، وتؤسس حضوراً لا يُنسى.</p>
+              <div class="hero-actions">
+                <a class="cta" href="https://www.youtube.com/@shaheen-social-universe" target="_blank" rel="noopener noreferrer">تابعني على اليوتيوب</a>
+                <a class="cta secondary" href="#gallery">مشاهدة المعرض</a>
+              </div>
+            </div>
+            <div class="hero-visual" aria-label="Hero visual">
+              <div class="orb-wrap">
+                <div class="orb one"></div>
+                <div class="orb two"></div>
+                <div class="display-card">
+                  <img src="https://i.postimg.cc/kMLNVwvr/IMG-20261027-200104-798.jpg" alt="Yousef Z. A. Shaheen profile image" loading="eager" />
+                </div>
+                <div class="badge-float one">Premium Media</div>
+                <div class="badge-float two">Growth Strategy</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-stack reveal">
+          <div class="section-panel glass">
+            <h2 class="section-title">Brand Identity</h2>
+            <div class="identity-tags">
+              <span class="identity-tag">Digital Authority</span>
+              <span class="identity-tag">Luxury Media</span>
+              <span class="identity-tag">Content Engineering</span>
+              <span class="identity-tag">Visual Excellence</span>
+            </div>
+          </div>
+          <div class="section-panel glass metric-panel">
+            <div class="metric-box"><span>Platform</span><strong>YouTube</strong></div>
+            <div class="metric-box"><span>Focus</span><strong>Brand Story</strong></div>
+            <div class="metric-box"><span>Signature</span><strong>Premium Growth</strong></div>
+          </div>
+        </section>
+
+        <section class="gallery-block glass reveal" id="gallery">
+          <div class="gallery-head">
+            <h2 class="section-title">3D Personal Image Gallery</h2>
+            <span class="verified-badge">Premium Collection</span>
+          </div>
+          <div class="gallery-grid">
+            <figure class="gallery-item" data-src="https://i.postimg.cc/kMLNVwvr/IMG-20261027-200104-798.jpg"><img src="https://i.postimg.cc/kMLNVwvr/IMG-20261027-200104-798.jpg" alt="Gallery image 1" /></figure>
+            <figure class="gallery-item" data-src="https://i.postimg.cc/QNvgBSk2/IMG-20261014-095745-0118.jpg"><img src="https://i.postimg.cc/QNvgBSk2/IMG-20261014-095745-0118.jpg" alt="Gallery image 2" /></figure>
+            <figure class="gallery-item" data-src="https://i.postimg.cc/8CXnJMCN/IMG-20261027-200115-820.jpg"><img src="https://i.postimg.cc/8CXnJMCN/IMG-20261027-200115-820.jpg" alt="Gallery image 3" /></figure>
+            <figure class="gallery-item" data-src="https://i.postimg.cc/kMLNVwFz/Picsart-26-10-30-02-28-42-004.jpg"><img src="https://i.postimg.cc/kMLNVwFz/Picsart-26-10-30-02-28-42-004.jpg" alt="Gallery image 4" /></figure>
+            <figure class="gallery-item" data-src="https://i.postimg.cc/05hG6Zdh/Picsart-26-10-30-02-27-25-983.jpg"><img src="https://i.postimg.cc/05hG6Zdh/Picsart-26-10-30-02-27-25-983.jpg" alt="Gallery image 5" /></figure>
+          </div>
+        </section>
+
+        <section class="section-panel glass reveal" style="margin-top:1.5rem;">
+          <h2 class="section-title">Technology Badges</h2>
+          <div class="tech-tags">
+            <span class="tech-badge">GitHub</span>
+            <span class="tech-badge">Linux</span>
+            <span class="tech-badge">Termux</span>
+            <span class="tech-badge">Instagram</span>
+            <span class="tech-badge">Telegram</span>
+            <span class="tech-badge">Facebook</span>
+            <span class="tech-badge">TikTok</span>
+            <span class="tech-badge">Snapchat</span>
+            <span class="tech-badge">X</span>
+            <span class="tech-badge">Threads</span>
+            <span class="tech-badge">YouTube</span>
+            <span class="tech-badge">Discord</span>
+            <span class="tech-badge">LinkedIn</span>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer reveal">
+        <span>SHAHEEN GROUP — BEYOND INNOVATION. BEYOND LIMITS.</span>
+        <span>© 2026 Yousef Z. A. Shaheen. All Rights Reserved.</span>
+      </footer>
+    </div>
+
+    <div class="modal" id="galleryModal" aria-modal="true" role="dialog" aria-label="Gallery modal">
+      <div class="modal-box">
+        <button class="close-btn" type="button" aria-label="Close image">×</button>
+        <img id="modalImage" src="" alt="Expanded gallery image" />
+      </div>
+    </div>
+
+    <script>
+      const revealItems = document.querySelectorAll('.reveal');
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      revealItems.forEach((item) => observer.observe(item));
+
+      const modal = document.getElementById('galleryModal');
+      const modalImage = document.getElementById('modalImage');
+      const closeButton = document.querySelector('.close-btn');
+      document.querySelectorAll('.gallery-item').forEach((item) => {
+        item.addEventListener('click', () => {
+          modalImage.src = item.dataset.src;
+          modal.classList.add('show');
+          document.body.style.overflow = 'hidden';
+        });
+      });
+      const closeModal = () => {
+        modal.classList.remove('show');
+        document.body.style.overflow = '';
+      };
+      closeButton.addEventListener('click', closeModal);
+      modal.addEventListener('click', (event) => {
+        if (event.target === modal) closeModal();
+      });
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && modal.classList.contains('show')) closeModal();
+      });
+    </script>
+  </body>
+                                                 </html>
